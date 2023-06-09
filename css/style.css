@@ -13,6 +13,19 @@ a {
 	text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .container {
 	height: 100vh;
 	display: flex;
